@@ -1,0 +1,26 @@
+{
+  "name": "vuejs2-getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ara-ta3/vuejs2-getting-started.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ara-ta3/vuejs2-getting-started/issues"
+  },
+  "homepage": "https://github.com/ara-ta3/vuejs2-getting-started#readme",
+  "dependencies": {
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}
