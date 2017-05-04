@@ -3,7 +3,10 @@ const Vue = require("vue");
 Vue.config.debug = true;
 
 Vue.component("message", {
-    'template': '<p class="text-info">hello hello</p>'
+    props: [
+        'message'
+    ],
+    'template': '<p class="text-info">{{message}}</p>'
 });
 
 const app = new Vue({

@@ -32,8 +32,8 @@
     </nav>
     <div class="container">
         <div id="app">
-            <message></message>
-            <p class="text-info">{{text}}</p>
+            <message :message="text"></message>
+            <input type="text" v-model="text">
         </div>
     </div>
 </body>
