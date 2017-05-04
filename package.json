@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ara-ta3/vuejs2-getting-started#readme",
   "dependencies": {
-    "vue": "^2.1.8"
+    "vue": "^2.0"
   },
   "devDependencies": {
     "webpack": "^1.14.0"
